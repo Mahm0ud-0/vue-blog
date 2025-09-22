@@ -1,11 +1,14 @@
-<script setup></script>
+<script setup>
+import { RouterLink, RouterView } from "vue-router"
+import vue_logo from "./assets/icons/vue_logo.svg"
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+    <RouterLink to="/" />
+    <RouterLink to="/articles" />
+    <RouterLink to="/articles/1" />
+
+    <RouterView />
 </template>
 
 <style scoped></style>
