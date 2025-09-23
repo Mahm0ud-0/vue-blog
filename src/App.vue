@@ -1,14 +1,14 @@
 <script setup>
-
-import { RouterView } from "vue-router"
-import Footer from "./components/Footer.vue"
-import Header from "./components/Header.vue"
+import { RouterLink, RouterView } from "vue-router"
+import vue_logo from "./assets/icons/vue_logo.svg"
 </script>
 
 <template>
-    <Header />
+    <RouterLink to="/" />
+    <RouterLink to="/articles" />
+    <RouterLink to="/articles/1" />
+
     <RouterView />
-    <Footer />
 </template>
 
 <style scoped></style>
