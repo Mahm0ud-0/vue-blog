@@ -1,9 +1,13 @@
 <template>
-    <h1>
-        Home page
-    </h1>
+  <HeroSection />
+  <FeaturedArticles />
 </template>
 
-<script setup></script>
+<script>
+import HeroSection from "../components/HeroSection.vue";
+import FeaturedArticles from "../components/FeaturedArticles.vue";
 
-<style></style>
+export default {
+  components: { HeroSection, FeaturedArticles },
+};
+</script>
