@@ -1,7 +1,13 @@
 <template>
-    <h1>Articles page</h1>
+    <Filter />
+    <ArticlesList />
+    <Paginator />
 </template>
 
-<script setup></script>
+<script setup>
+import ArticlesList from "@/components/ArticlesList.vue"
+import Filter from "@/components/Filter.vue"
+import Paginator from "@/components/Paginator.vue"
+</script>
 
 <style></style>
