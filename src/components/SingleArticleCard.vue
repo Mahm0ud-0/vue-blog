@@ -16,8 +16,8 @@
             >
                 <!-- tags -->
                 <div class="flex gap-2">
-                    <Tag />
-                    <Tag />
+                  <Tag>Technology</Tag>
+                  <Tag>AI</Tag>
                 </div>
                 <div class="flex gap-1 whitespace-nowrap">
                     <!-- author -->
@@ -35,7 +35,7 @@
                 An exploration of how artificial intelligence is transforming
                 creative fields like design, music, and writing.
             </p>
-            <RouterLink to="/article/1" class="hover:underline">
+            <RouterLink to="/articles/1" class="hover:underline">
                 <!-- readMore -->
                 read more
             </RouterLink>
