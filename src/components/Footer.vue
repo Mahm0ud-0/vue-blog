@@ -5,13 +5,13 @@ const logo = vue_logo
 </script>
 
 <template>
-    <footer class="bg-background-light border-t border-black/10 mt-64">
+    <footer class="bg-background-light border-t border-black/10">
         <div
             class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 flex justify-between items-center"
         >
             <!-- logo -->
             <div
-                class="flex gap-2 items-center font-semibold text-lg text-accent"
+                class="flex gap-2 items-center font-semibold text-lg text-accent whitespace-nowrap"
             >
                 <img :src="logo" alt="" class="w-8" />
                 Vue Blog
